@@ -1,19 +1,19 @@
 public class Process {
     private final long id;
-    private final int execTime;
+    private final int executionTime;
     private int waitTime;
 
-    public Process(long id, int execTime) {
+    public Process(long id, int executionTime) {
         this.id = id;
-        this.execTime = execTime;
+        this.executionTime = executionTime;
     }
 
     public long getId() {
         return id;
     }
 
-    public int getExecTime() {
-        return execTime;
+    public int getExecutionTime() {
+        return executionTime;
     }
 
     public int getWaitTime() {
@@ -27,8 +27,8 @@ public class Process {
     @Override
     public String toString() {
         return
-                "ID : " + id +
-                "  EXEC TIME : " + execTime +
-                "  WAITING : " + waitTime;
+                "id: " + id +
+                " execution time: " + executionTime +
+                " waiting time: " + waitTime;
     }
 }

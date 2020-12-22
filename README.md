@@ -32,3 +32,4 @@ For this demonstration, every process has:
 
 ![alt text](example-images/log.png)
 
+![alt text](example-images/graph.png)
